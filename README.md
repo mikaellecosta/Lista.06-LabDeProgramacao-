@@ -31,7 +31,6 @@ int main(void) {
   aluno.media = (aluno.nota1 + aluno.nota2)/2;
   printf("%0.1f\n", aluno.media);
 
-  
   return 0;
 }
 ```
@@ -115,7 +114,6 @@ int main() {
   save.matriz = malloc(save.qnt * sizeof(int));
   gerarvetor(save.matriz,save.qnt);
   printarvetor(save.matriz, save.qnt);
-
   
   return 0;
 }
